@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://rinri-d.xyz/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://rinri-d.xyz/images/logo.ico" type="image/x-icon">
+    <title>RinRi - Recommendations</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="https://rinri-d.xyz" style="color: var(--color1);">
+            RinRi-D
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="https://rinri-d.xyz">Home</a>
+                <a class="nav-item nav-link" href="https://blog.rinri-d.xyz">Blog</a>
+                <a class="nav-item nav-link" href="https://apps.rinri-d.xyz">Apps</a>
+                <a class="nav-item nav-link" href="https://git.rinri-d.xyz">Code</a>
+                <a class="nav-item nav-link active" href="https://rinri-d.xyz/rec.html">Recommendations</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Personal Recommendations:</h1>
+        <hr>
+        <h2>Software:</h2>
+        <hr>
+        <h3>OS</h3>
+        <p style="margin-left: 2rem;">
+            <a href="https://www.archlinux.org/">Arch Linux</a> or <a href="https://artixlinux.org/">Artix
+                Linux</a>. Artix is easier than Arch, because of pre-installed graphical
+            environment. Also, Artix is
+            systemd-free(runit is actually much faster than system-d).
+        </p>
+        <h3>Window Manager</h3>
+        <p style="margin-left: 2rem;">
+            I highly recommend <a href="https://dwm.suckless.org">suckless's dwm</a>,
+            because it is
+            extremely lightweight, fast and highly customizable.
+        </p>
+
+        <h3>Terminal</h3>
+        <p style="margin-left: 2rem;">
+            <a href="https://st.suckless.org/">st(simple terminal)</a> - <a href="https://suckless.org">suckless</a>
+            terminal, support UTF-8 characters,
+            emojis(you need to
+            install libxft-bgra). I use Luke Smith's<a href="https://github.com/LukeSmithxyz/st"> build of
+                st</a>.
+        </p>
+
+        <h3>Text Editor</h3>
+        <p style="margin-left: 2rem;">
+            <a href="https://github.com/neovim/neovim">Neovim</a> and <a href="https://www.vim.org/">vim</a> can improve
+            your productivity and they are actually working in your terminal, so you can use them via ssh. If you like
+            "normie-friend" text editor, I
+            highly recommend <a href="https://github.com/VSCodium/vscodium">VSCodium</a>.
+        </p>
+
+        <h3>Web Browser</h3>
+        <p style="margin-left: 2rem;">
+            <a href="https://www.mozilla.org/en-US/exp/firefox/">Firefox</a> is fast and open-source browser, without
+            google's unnecessary tracking. You can extend it with some extensions:
+        <ul>
+            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">uBlock Origin</a> - ad and
+                tracking blocking addon;</li>
+            <li>With <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi
+                    Account
+                    Containers</a>, you can use multi accounts and keep different tracking sites like facebook
+                separate
+                from
+                others.</li>
+            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">HTTPS Everywhere</a> is a
+                cool
+                addon, which automatically use HTTPS instead of insecure HTTP protocol.</li>
+            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Bitwarden</a> is
+                private, decentralized, open-source password manager.</li>
+            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/onetab/">OneTab</a> can store all your tab in
+                one place and save your RAM, if you have a lot of them.</li>
+            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark Reader</a> is extremely useful
+                addon. It can turn on dark mode in almost every website.</li>
+        </ul>
+        </p>
+
+        <h3>Media Player</h3>
+        <p style="margin-left: 2rem;">
+            <a href="https://mpv.io">mpv</a> is lightweight, open-source, fast and reliable media player. You can play
+            YouTube and other hostings' videos in mpv, simply by installing youtube-dl.
+        </p>
+
+        <h3>Music Player</h3>
+        <p style="margin-left: 2rem;">
+            <a href="https://github.com/cmus/cmus">cmus</a> - lightweight music player with vi-like bindings.
+        </p>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Email: <a
+                        href="mailto:rin@rinri-d.xyz">rin@rinri-d.xyz</a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Mastodon: <a
+                        href="https://fosstodon.org/@rinri">@rinri@fosstodon.org</a> </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Matrix: <a
+                        href="https://matrix.to/#/@rinri-d:matrix.org">@rinri-d:matrix.org</a> </div>
+            </div>
+            <div style="text-align: center;">&copy; Copyright 2020 RinRi-D.xyz</div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
