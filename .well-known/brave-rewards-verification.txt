@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: rinri-d.xyz
+Token: 6344932cd13dc3bb0cadbf01fedecc228e2035672958381661a984cd24ccb381

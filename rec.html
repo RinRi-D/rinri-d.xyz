@@ -35,21 +35,22 @@
         <h2>Software:</h2>
         <hr>
         <h3>OS</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             <a href="https://www.archlinux.org/">Arch Linux</a> or <a href="https://artixlinux.org/">Artix
-                Linux</a>. Artix is easier than Arch, because of pre-installed graphical
-            environment. Also, Artix is
-            systemd-free(runit is actually much faster than system-d).
+                Linux</a>. Artix is easier than Arch, because they offer pre-installed graphical
+            environment and graphical installation. Of course, they have arch-like base live iso as well. Also, Artix is
+            systemd-free(runit, openrc and s6 are actually much faster and simpler than systemd).
         </p>
         <h3>Window Manager</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             I highly recommend <a href="https://dwm.suckless.org">suckless's dwm</a>,
             because it is
-            extremely lightweight, fast and highly customizable.
+            extremely lightweight, fast and highly customizable. The are several drawbacks such as lack of documentation
+            (code is your documentation) and patching (you usually have to install patches manually).
         </p>
 
         <h3>Terminal</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             <a href="https://st.suckless.org/">st(simple terminal)</a> - <a href="https://suckless.org">suckless</a>
             terminal, support UTF-8 characters,
             emojis(you need to
@@ -58,7 +59,7 @@
         </p>
 
         <h3>Text Editor</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             <a href="https://github.com/neovim/neovim">Neovim</a> and <a href="https://www.vim.org/">vim</a> can improve
             your productivity and they are actually working in your terminal, so you can use them via ssh. If you like
             "normie-friend" text editor, I
@@ -66,40 +67,60 @@
         </p>
 
         <h3>Web Browser</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             <a href="https://www.mozilla.org/en-US/exp/firefox/">Firefox</a> is fast and open-source browser, without
             google's unnecessary tracking. You can extend it with some extensions:
         <ul>
-            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">uBlock Origin</a> - ad and
+            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">uBlock
+                    Origin</a> - ad and
                 tracking blocking addon;</li>
-            <li>With <a href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi
+            <li class="indent-l">With <a
+                    href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi
                     Account
                     Containers</a>, you can use multi accounts and keep different tracking sites like facebook
                 separate
                 from
                 others.</li>
-            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">HTTPS Everywhere</a> is a
+            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/">HTTPS
+                    Everywhere</a> is a
                 cool
                 addon, which automatically use HTTPS instead of insecure HTTP protocol.</li>
-            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Bitwarden</a> is
+            <li class="indent-l"><a
+                    href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Bitwarden</a> is
                 private, decentralized, open-source password manager.</li>
-            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/onetab/">OneTab</a> can store all your tab in
+            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/onetab/">OneTab</a> can store
+                all your tab in
                 one place and save your RAM, if you have a lot of them.</li>
-            <li><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark Reader</a> is extremely useful
+            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark Reader</a> is
+                extremely useful
                 addon. It can turn on dark mode in almost every website.</li>
         </ul>
         </p>
 
         <h3>Media Player</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             <a href="https://mpv.io">mpv</a> is lightweight, open-source, fast and reliable media player. You can play
             YouTube and other hostings' videos in mpv, simply by installing youtube-dl.
         </p>
 
         <h3>Music Player</h3>
-        <p style="margin-left: 2rem;">
+        <p class="indent-l">
             <a href="https://github.com/cmus/cmus">cmus</a> - lightweight music player with vi-like bindings.
         </p>
+
+        <h2>Resources</h2>
+        <hr>
+        <h3>Websites:</h3>
+        <ul>
+            <li><a href="https://www.privacytools.io/">Privacy Tools</a> - recommended privacy tools.</li>
+            <li><a href="https://www.freecodecamp.org/">Free Code Camp</a> - best internet courses for programmers.</li>
+            <li><a href="https://wiki.archlinux.org/">Arch Wiki</a> - best wiki of GNU/Linux.</li>
+            <li><a href="https://www.vultr.com/?ref=8647597-6G">Vultr(affiliate link)</a> - cheap VPS. Get free 100
+                American USD dollars(what's up, slappers) for the first month.</li>
+            <li><a href="https://www.epik.com/?affid=ja5me8fu2">Epik(affiliate link)</a> - cheap domain registrar.</li>
+            <li><a href="https://madi-wka.club">Madi-wka.club</a> - my friend's personal website. You can play games,
+                find programs and useful tools on his website.</li>
+        </ul>
 
     </div>
 
@@ -107,7 +128,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Email: <a
-                        href="mailto:rin@rinri-d.xyz">rin@rinri-d.xyz</a>
+                        href="mailto:rin@rinri-d.xyz">rin@rinri-d.xyz</a> <a
+                        href="https://cloud.rinri-d.xyz/s/TtX6ny2x7XLSaeK">(PGP)</a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Mastodon: <a
                         href="https://fosstodon.org/@rinri">@rinri@fosstodon.org</a> </div>
