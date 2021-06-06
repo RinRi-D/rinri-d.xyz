@@ -8,7 +8,7 @@
     --color0: #404b69;
     --color1: #0fff83;
     --color2: #2effaf;
-    --color3: #2effaf;
+    --color3: #8ffcc9;
     --color4: #2ee0ff;
     --color5: #3fb4d1;
     --color6: #c59820;
@@ -110,6 +110,10 @@ h2 {
 }
 
 h3 {
+    color: var(--color3);
+}
+
+h4 {
     color: var(--color3);
 }
 
