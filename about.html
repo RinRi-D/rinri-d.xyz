@@ -1,95 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://rinri-d.xyz/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://rinri-d.xyz/css/style.css">
     <link rel="shortcut icon" href="https://rinri-d.xyz/images/logo.ico" type="image/x-icon">
-    <title>RinRi - About</title>
+    <title>RinRi - Home</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="https://rinri-d.xyz" style="color: var(--color1);">
-            RinRi-D
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="https://rinri-d.xyz">Home</a>
-                <a class="nav-item nav-link" href="https://blog.rinri-d.xyz">Blog</a>
-                <a class="nav-item nav-link" href="https://apps.rinri-d.xyz">Apps</a>
-                <a class="nav-item nav-link" href="https://git.rinri-d.xyz">Code</a>
-                <a class="nav-item nav-link" href="https://rinri-d.xyz/rec.html">Recommendations</a>
-                <a class="nav-item nav-link active" href="https://rinri-d.xyz/about.html">About</a>
+    
+    <div class="wrapper">
+        <header>
+            <div class="topnav">
+                <div class="container">
+                    <div class="links">
+                        <a href="https://rinri-d.xyz">home</a>
+                        <a href="https://blog.rinri-d.xyz">blog</a>
+                        <a href="https://git.rinri-d.xyz">code</a>
+                        <a href="https://rinri-d.xyz/rec.html">soft</a>
+                        <a href="https://rinri-d.xyz/about.html" class="active">about</a>
+                    </div>
+                    <hr>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="container">
-        <h1> About me </h1>
+        </header>
+    
+        <main>
 
-        <hr>
-        <p>
-            Hi! I am a young seeker of knowledge and also an Information Security enthusiast.
-        </p>
-        <p>
-            Contact me at rin(AT)rinri-d(D0T)xyz, and I will send you my CV.
-        </p>
+            <div class="container">
 
-        <h2> Experience </h1>
-        <hr>
+                <h1> About me </h1>
+                <hr class="delimiter">
 
-        <h4> <i> Linux & InfoSec </i> </h4>
-        <p>
-        I use Linux as my desktop OS(currently using arch, btw) for more than 3-years and use Debian on my VPS for hosting my website, e-mail server, Gitea, and Nextcloud instances. I configured tons of software like Nginx, OpenVPN, databases(MySQL, PostgreSQL, MongoDB), Gitea, Nextcloud on my server, and many programs on my desktop OS(dotfiles and software I use are available on my Gitea instance).
-        </p>
-        <p>
-        I enjoy solving interesting CTF challenges on web application security, reverse engineering, forensics, etc. I completed some wargames like Overthewire's bandit on Linux and scripting, many CTFlearn, and picoCTF challenges. Currently, I am solving Overthewire's Natas on web application security, Hackthebox, and hacking on my home lab.
-        </p>
+                <p>
+                    Hi! I am a young seeker of knowledge and also an Information Security enthusiast.
+                </p>
+                <p>
+                    Contact me at rin(AT)rinri-d(D0T)xyz, and I will send you my CV.
+                </p>
 
-        <br>
-        <h4> <i> Competitive programming </i> </h4>
-        <p>
-        In high school, I studied Competitive programming, data structures, and algorithms. I won several Olympiads in Informatics, such as International Zhautykov Olympiad, Kazakhstan National Olympiad. While competing in Olympiads, I developed beneficial skills like problem-solving, creativity, and debugging. Competitive programming taught me many code techniques for developing optimized and fast programs.
-        </p>
-        
-        <br>
-        <h4> <i> Web Development </i> </h4>
-        <p>
-        As for Web Development, I developed several websites and web applications like an e-commerce website(online shop) and a Blog app on my website. Their source code is available on Gitea and GitHub. I used different technologies: PHP and MySQL for e-commerce and Node.js, Express.js, MongoDB for the Blog app.
-        </p>
+                <h2> Experience </h1>
+                <hr class="delimiter">
 
+                <h4> <i> Linux & InfoSec </i> </h4>
+                <p>
+                    I use Linux as my desktop OS(currently using arch, btw) for more than 3-years and use Debian on my VPS for hosting my website, e-mail server, Gitea, and Nextcloud instances. I configured tons of software like Nginx, OpenVPN, databases(MySQL, PostgreSQL, MongoDB), Gitea, Nextcloud on my server, and many programs on my desktop OS(dotfiles and software I use are available on my Gitea instance).
+                </p>
+                <p>
+                    I enjoy solving interesting CTF challenges on web application security, reverse engineering, forensics, etc. I completed some wargames like Overthewire's bandit on Linux and scripting, many CTFlearn, and picoCTF challenges. Currently, I am solving Overthewire's Natas on web application security, Hackthebox, and hacking on my home lab.
+                </p>
+
+                <br>
+                <h4> <i> Competitive programming </i> </h4>
+                <p>
+                    In high school, I studied Competitive programming, data structures, and algorithms. I won several Olympiads in Informatics, such as International Zhautykov Olympiad, Kazakhstan National Olympiad. While competing in Olympiads, I developed beneficial skills like problem-solving, creativity, and debugging. Competitive programming taught me many code techniques for developing optimized and fast programs.
+                </p>
+                
+                <br>
+                <h4> <i> Web Development </i> </h4>
+                <p>
+                    As for Web Development, I developed several websites and web applications like an e-commerce website(online shop) and a Blog app on my website. Their source code is available on Gitea and GitHub. I used different technologies: PHP and MySQL for e-commerce and Node.js, Express.js, MongoDB for the Blog app.
+                </p>
+
+            </div>
+
+        </main>
+    
+        <footer>
+            <div class="container">
+                <hr>
+                <div class="contacts">
+                    <p>
+                        rin(at)rinri-d(d0t)xyz <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x63f37e00f69fdf1e">(PGP)</a>
+                    </p>
+                    <p>
+                        public key: 63F37E00F69FDF1E
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Email: <a
-                        href="mailto:rin(AT)rinri-d(D0T)xyz">rin(AT)rinri-d(D0T)xyz</a> <a
-                        href="https://cloud.rinri-d.xyz/s/TtX6ny2x7XLSaeK">(PGP)</a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Mastodon: <a
-                        href="https://fosstodon.org/@rinri">@rinri@fosstodon.org</a> </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Matrix: <a
-                        href="https://matrix.to/#/@rinri-d:matrix.org">@rinri-d:matrix.org</a> </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>

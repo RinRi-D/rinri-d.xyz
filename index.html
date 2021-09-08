@@ -1,94 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://rinri-d.xyz/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://rinri-d.xyz/css/style.css">
     <link rel="shortcut icon" href="https://rinri-d.xyz/images/logo.ico" type="image/x-icon">
-    <title>RinRi - Homepage</title>
+    <title>RinRi - Home</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="https://rinri-d.xyz" style="color: var(--color1);">
-            RinRi-D
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="https://rinri-d.xyz">Home</a>
-                <a class="nav-item nav-link" href="https://blog.rinri-d.xyz">Blog</a>
-                <a class="nav-item nav-link" href="https://apps.rinri-d.xyz">Apps</a>
-                <a class="nav-item nav-link" href="https://git.rinri-d.xyz">Code</a>
-                <a class="nav-item nav-link" href="https://rinri-d.xyz/rec.html">Recommendations</a>
-                <a class="nav-item nav-link" href="https://rinri-d.xyz/about.html">About</a>
+    
+    <div class="wrapper">
+        <header>
+            <div class="topnav">
+                <div class="container">
+                    <div class="links">
+                        <a href="https://rinri-d.xyz" class="active">home</a>
+                        <a href="https://blog.rinri-d.xyz">blog</a>
+                        <a href="https://git.rinri-d.xyz">code</a>
+                        <a href="https://rinri-d.xyz/rec.html">soft</a>
+                        <a href="https://rinri-d.xyz/about.html">about</a>
+                    </div>
+                    <hr>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="container">
-        <h1>Welcome! I am RinRi.</h1>
-        <div class="odd">
-            <p>
-                I am a student at Innopolis University.
-                My interests: 
-                <ul>
-                    <li>InfoSec</li>
-                    <li>Embedded Development and electronics (STM32, Arduino, Wi-Fi Routers)</li>
-                    <li>Free and Open-Source Software like Linux</li>
-                    <li>Competitive programming (My Codeforces <a href="http://codeforces.com/profile/rinri">account</a>)</li>
-                    <li>C and C++ programming</li>
-                    <li>Web Development (backend)</li>
-                </ul>
-            </p>
+        </header>
+    
+        <main>
 
-            <p>
-                Initially, I created this website to share knowledge with other people. 
-                Unfortunately, there are no useful articles on my website at the moment. I'm working on it. 
-                At least you can find some valuable repositories on my Gitea instance.
-            </p>
+            <div class="container">
 
-            <p>
-                <b>Contact me: rin(AT)rinri-d(D0T)xyz.</b>
-            </p>
-        </div>
-        <div>
-            <h2>To-Do:</h2>
-            <ul>
-                <li>Get rid of Bootstrap, CDNs, JavaScript, and other things. I will probably remake the website using a static site generator.</li>
-                <li>Write some useful articles and share them.</li>
-            </ul>
-        </div>
+                <h1>Welcome! I am RinRi.</h1>
+                <div class="odd">
+                    <p>
+                        I am a student at Innopolis University.
+                        My interests: 
+                        <ul>
+                            <li>InfoSec</li>
+                            <li>Embedded Development and electronics (STM32, Arduino, Wi-Fi Routers)</li>
+                            <li>Free and Open-Source Software like Linux</li>
+                            <li>Competitive programming (My Codeforces <a href="http://codeforces.com/profile/rinri">account</a>)</li>
+                            <li>C and C++ programming</li>
+                            <li>Web Development (backend)</li>
+                        </ul>
+                    </p>
+    
+                    <p>
+                        Initially, I created this website to share knowledge.
+                        Unfortunately, there are no useful articles on my website at the moment. I'm working on it. 
+                        At least you can find several valuable repositories on my Gitea instance.
+                    </p>
+    
+                    <p>
+                        <b>Contact me: rin(AT)rinri-d(D0T)xyz.</b>
+                    </p>
+                </div>
+    
+                <div>
+                    <h2>To-Do:</h2>
+                    <ul>
+                        <li>Write some useful articles</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </main>
+    
+        <footer>
+            <div class="container">
+                <hr>
+                <div class="contacts">
+                    <p>
+                        rin(at)rinri-d(d0t)xyz <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x63f37e00f69fdf1e">(PGP)</a>
+                    </p>
+                    <p>
+                        public key: 63F37E00F69FDF1E
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Email: <a
-                        href="mailto:rin(AT)rinri-d(D0T)xyz">rin(AT)rinri-d(D0T)xyz</a> <a
-                        href="https://cloud.rinri-d.xyz/s/TtX6ny2x7XLSaeK">(PGP)</a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Mastodon: <a
-                        href="https://fosstodon.org/@rinri">@rinri@fosstodon.org</a> </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Matrix: <a
-                        href="https://matrix.to/#/@rinri-d:matrix.org">@rinri-d:matrix.org</a> </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>

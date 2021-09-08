@@ -1,132 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://rinri-d.xyz/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://rinri-d.xyz/css/style.css">
     <link rel="shortcut icon" href="https://rinri-d.xyz/images/logo.ico" type="image/x-icon">
-    <title>RinRi - Recommendations</title>
+    <title>RinRi - Home</title>
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="https://rinri-d.xyz" style="color: var(--color1);">
-            RinRi-D
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="https://rinri-d.xyz">Home</a>
-                <a class="nav-item nav-link" href="https://blog.rinri-d.xyz">Blog</a>
-                <a class="nav-item nav-link" href="https://apps.rinri-d.xyz">Apps</a>
-                <a class="nav-item nav-link" href="https://git.rinri-d.xyz">Code</a>
-                <a class="nav-item nav-link active" href="https://rinri-d.xyz/rec.html">Recommendations</a>
-                <a class="nav-item nav-link" href="https://rinri-d.xyz/about.html">About</a>
+    
+    <div class="wrapper">
+        <header>
+            <div class="topnav">
+                <div class="container">
+                    <div class="links">
+                        <a href="https://rinri-d.xyz">home</a>
+                        <a href="https://blog.rinri-d.xyz">blog</a>
+                        <a href="https://git.rinri-d.xyz">code</a>
+                        <a href="https://rinri-d.xyz/rec.html" class="active">soft</a>
+                        <a href="https://rinri-d.xyz/about.html">about</a>
+                    </div>
+                    <hr>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="container">
-        <h1>Personal Recommendations:</h1>
-        <hr>
-        <h2>Software:</h2>
-        <hr>
-        <h3>OS</h3>
-        <p class="indent-l">
-            <a href="https://www.archlinux.org/">Arch Linux</a> or <a href="https://artixlinux.org/">Artix
-                Linux</a>. Will write about them soon...
-        </p>
-        <h3>Window Manager</h3>
-        <p class="indent-l">
-            I highly recommend <a href="https://dwm.suckless.org">suckless's dwm</a>,
-            because it is
-            extremely lightweight, fast and highly customizable. The are several drawbacks such as lack of documentation and patches (you usually have to install patches manually by editing the code).
-        </p>
+        </header>
+    
+        <main>
 
-        <h3>Terminal</h3>
-        <p class="indent-l">
-            <a href="https://st.suckless.org/">st(simple terminal)</a> - <a href="https://suckless.org">suckless</a>
-            terminal. St supports UTF-8 characters,
-            emojis(install libxft-bgra). I personally use Luke Smith's<a href="https://github.com/LukeSmithxyz/st"> build of
-                st</a>. Will probably make my own soon.
-        </p>
+            <div class="container">
 
-        <h3>Text & Code Editor</h3>
-        <p class="indent-l">
-            <a href="https://github.com/neovim/neovim">Neovim</a> and <a href="https://www.vim.org/">vim</a> can improve
-            your productivity.
-        </p>
+                <h1>Personal Recommendations:</h1>
+                <hr class="delimiter">
+                <h2>Software:</h2>
+                <hr class="delimiter">
+                <h3>OS</h3>
+                <p class="indent-l">
+                    <a href="https://www.archlinux.org/">Arch Linux</a> or <a href="https://artixlinux.org/">Artix
+                        Linux</a>. Will write about them soon...
+                </p>
+                <h3>Window Manager</h3>
+                <p class="indent-l">
+                    I highly recommend <a href="https://dwm.suckless.org">suckless's dwm</a>,
+                    because it is
+                    extremely lightweight, fast and highly customizable. The are several drawbacks such as lack of documentation and patches (you usually have to install patches manually by editing the code).
+                </p>
+    
+                <h3>Terminal</h3>
+                <p class="indent-l">
+                    <a href="https://st.suckless.org/">st(simple terminal)</a> - <a href="https://suckless.org">suckless</a>
+                    terminal. St supports UTF-8 characters,
+                    emojis(install libxft-bgra). I personally use Luke Smith's<a href="https://github.com/LukeSmithxyz/st"> build of
+                        st</a>. Will probably make my own soon.
+                </p>
+    
+                <h3>Text & Code Editor</h3>
+                <p class="indent-l">
+                    <a href="https://github.com/neovim/neovim">Neovim</a> and <a href="https://www.vim.org/">vim</a> can improve
+                    your productivity.
+                </p>
+    
+                <h3>Web Browser</h3>
+                <p class="indent-l">
+                    <a href="https://www.mozilla.org/en-US/exp/firefox/">Firefox</a> is an open-source web browser. You can extend it with some extensions:
+                <ul>
+                    <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">uBlock
+                            Origin</a> - ad and tracking blocking</li>
+                    <li class="indent-l">Using <a
+                            href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi
+                            Account
+                            Containers</a>, you can be logged in multiple accounts at the same time and keep tracking websites separate from each other.</li>
+                    <li class="indent-l"><a
+                            href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Bitwarden</a> is a private, decentralized, and open-source password manager.</li>
+                    <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/onetab/">OneTab</a> helps you to organize your tabs</li>
+                    <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark Reader</a> turns on dark mode in almost every website.</li>
+                </ul>
+                </p>
+    
+                <h3>Media Player</h3>
+                <p class="indent-l">
+                    <a href="https://mpv.io">mpv</a> is a lightweight, open-source, and reliable media player. You can play
+                    YouTube and other internet videos using mpv simply by installing youtube-dl.
+                </p>
+    
+                <h3>Music Player</h3>
+                <p class="indent-l">
+                    <a href="https://github.com/cmus/cmus">cmus</a> is a lightweight music player with vim key bindings.
+                </p>
+    
+                <h2>Resources</h2>
+                <hr class="delimiter">
+                <h3>Websites:</h3>
+                <ul>
+                    <li><a href="https://www.privacytools.io/">Privacy Tools</a></li>
+                    <li><a href="https://www.freecodecamp.org/">Free Code Camp</a></li>
+                    <li><a href="https://wiki.archlinux.org/">Arch Wiki</a></li>
+                    <li><a href="https://www.vultr.com/?ref=8647597-6G">Vultr(affiliate link)</a> - a cheap VPS. Get free 100$ for the first month</li>
+                    <li><a href="https://www.epik.com/?affid=ja5me8fu2">Epik(affiliate link)</a> - a cheap domain registrar</li>
+                    <li><a href="https://madi-wka.club">Madi-wka.club</a> - my friend's personal website</li>
+                </ul>
 
-        <h3>Web Browser</h3>
-        <p class="indent-l">
-            <a href="https://www.mozilla.org/en-US/exp/firefox/">Firefox</a> is an open-source web browser. You can extend it with some extensions:
-        <ul>
-            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin">uBlock
-                    Origin</a> - ad and tracking blocking</li>
-            <li class="indent-l">Using <a
-                    href="https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/">Multi
-                    Account
-                    Containers</a>, you can be logged in multiple accounts at the same time and keep tracking websites separate from each other.</li>
-            <li class="indent-l"><a
-                    href="https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/">Bitwarden</a> is a private, decentralized, and open-source password manager.</li>
-            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/onetab/">OneTab</a> helps you to organize your tabs</li>
-            <li class="indent-l"><a href="https://addons.mozilla.org/en-US/firefox/addon/darkreader/">Dark Reader</a> turns on dark mode in almost every website.</li>
-        </ul>
-        </p>
+            </div>
 
-        <h3>Media Player</h3>
-        <p class="indent-l">
-            <a href="https://mpv.io">mpv</a> is a lightweight, open-source, and reliable media player. You can play
-            YouTube and other internet videos using mpv simply by installing youtube-dl.
-        </p>
-
-        <h3>Music Player</h3>
-        <p class="indent-l">
-            <a href="https://github.com/cmus/cmus">cmus</a> is a lightweight music player with vim key bindings.
-        </p>
-
-        <h2>Resources</h2>
-        <hr>
-        <h3>Websites:</h3>
-        <ul>
-            <li><a href="https://www.privacytools.io/">Privacy Tools</a></li>
-            <li><a href="https://www.freecodecamp.org/">Free Code Camp</a></li>
-            <li><a href="https://wiki.archlinux.org/">Arch Wiki</a></li>
-            <li><a href="https://www.vultr.com/?ref=8647597-6G">Vultr(affiliate link)</a> - a cheap VPS. Get free 100$ for the first month</li>
-            <li><a href="https://www.epik.com/?affid=ja5me8fu2">Epik(affiliate link)</a> - a cheap domain registrar</li>
-            <li><a href="https://madi-wka.club">Madi-wka.club</a> - my friend's personal website</li>
-        </ul>
-
+        </main>
+    
+        <footer>
+            <div class="container">
+                <hr>
+                <div class="contacts">
+                    <p>
+                        rin(at)rinri-d(d0t)xyz <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x63f37e00f69fdf1e">(PGP)</a>
+                    </p>
+                    <p>
+                        public key: 63F37E00F69FDF1E
+                    </p>
+                </div>
+            </div>
+        </footer>
     </div>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Email: <a
-                        href="mailto:rin@rinri-d.xyz">rin@rinri-d.xyz</a> <a
-                        href="https://cloud.rinri-d.xyz/s/TtX6ny2x7XLSaeK">(PGP)</a>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Mastodon: <a
-                        href="https://fosstodon.org/@rinri">@rinri@fosstodon.org</a> </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-4">Matrix: <a
-                        href="https://matrix.to/#/@rinri-d:matrix.org">@rinri-d:matrix.org</a> </div>
-            </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 </body>
-
 </html>
